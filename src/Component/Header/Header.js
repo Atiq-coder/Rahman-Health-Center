@@ -12,8 +12,9 @@ const Header = () => {
                     <Nav className="me-auto">
                         <Nav.Link><Link className="link" to="/home">Home</Link></Nav.Link>
                         <Nav.Link><Link className="link" to="/services">Services</Link></Nav.Link>
-                        <Nav.Link><Link className="link" to="/node_modulesfeatures">Features</Link></Nav.Link>
-                        <Nav.Link><Link className="link" to="/pricing">Pricing</Link></Nav.Link>
+                        <Nav.Link><Link className="link" to="/doctors">Doctors</Link></Nav.Link>
+                        <Nav.Link><Link className="link" to="/appointment">Appointment</Link></Nav.Link>
+                        <Nav.Link><Link className="link" to="/contact">Contact Us</Link></Nav.Link>
                     </Nav>
                 </Container>
             </Navbar>

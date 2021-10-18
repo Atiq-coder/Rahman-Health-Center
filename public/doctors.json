@@ -1,0 +1,128 @@
+[
+    {
+        "id": 1,
+        "name": "Dr.James Smith",
+        "specialities": "Chest Medicine",
+        "country": "USA",
+        "price": 90,
+        "onDuty": "Saturday , Wednesday , Thursday , Tuesday , Monday , Sunday",
+        "img": "https://img.freepik.com/free-photo/portrait-smiling-handsome-male-doctor-man_171337-5055.jpg?size=626&ext=jpg"
+    },
+    {
+        "id": 2,
+        "name": "Dr. Elizbeth Smith",
+        "specialities": "Colorectal Surgery",
+        "country": "USA",
+        "price": 110,
+        "onDuty": "Thursday , Tuesday , Sunday",
+        "img": "https://patients.smarterhealth.sg/wp-content/uploads/2019/11/Smarter-Health-General-Practitioner-or-Specialist-Doctor.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Dr. Natosha Jacobs",
+        "specialities": "Endocrine Medicine",
+        "country": "USA",
+        "price": 80,
+        "onDuty": "Wednesday ,Thursday , Tuesday , Sunday",
+        "img": "https://img.freepik.com/free-photo/pleased-young-female-doctor-wearing-medical-robe-stethoscope-around-neck-standing-with-closed-posture_409827-254.jpg?size=626&ext=jpg"
+    },
+    {
+        "id": 4,
+        "name": "Dr. Emma Emily",
+        "specialities": "Haematology",
+        "country": "USA",
+        "price": 80,
+        "onDuty": "Wednesday ,Thursday , Tuesday , Sunday",
+        "img": "https://us.123rf.com/450wm/milkos/milkos1910/milkos191003173/131495755-family-medical-doctor-positive-woman-physician-smiling-looking-at-camera-sitting-in-her-office-.jpg?ver=6"
+    },
+    {
+        "id": 5,
+        "name": "Dr. Ashley Rosa",
+        "specialities": "Neuro Surgery",
+        "country": "USA",
+        "price": 90,
+        "onDuty": "Thursday , Tuesday , Sunday",
+        "img": "https://media.istockphoto.com/photos/portrait-of-female-doctor-against-wall-in-hospital-picture-id942262770?k=20&m=942262770&s=612x612&w=0&h=BUpV5K7Bk4jBOgF8UVUvYDRwGV41Rm94Skmo9T0iLuQ="
+    },
+    {
+        "id": 6,
+        "name": "Dr. Crystal Waston",
+        "specialities": "Gastroenterology",
+        "country": "USA",
+        "price": 70,
+        "onDuty": "Thursday , Tuesday , Sunday",
+        "img": "https://media.istockphoto.com/photos/confident-serious-young-woman-doctor-picture-id1015792156?k=20&m=1015792156&s=612x612&w=0&h=ZZUUTUojl8c7R3-XpUg5xWjfODoAFOaACh6EufJbnYw="
+    },
+    {
+        "id": 7,
+        "name": "Dr. Lisa Resnick",
+        "specialities": "Eye / Ophthalmology",
+        "country": "USA",
+        "price": 50,
+        "onDuty": "Thursday , Tuesday , Sunday",
+        "img": "https://cdn.pixabay.com/photo/2017/03/14/03/20/woman-2141808__480.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Dr. Maria Garcia",
+        "specialities": "Endocrine Medicine",
+        "country": "USA",
+        "price": 90,
+        "onDuty": "Saturday , Thursday , Wednesday , Tuesday ",
+        "img": "https://lh3.googleusercontent.com/proxy/rGATce8ipqZbtjHKKKnQmpdW3pSNMry0ko9e2lkvOiR8a2iHAUjiBnPmabCuMWfcioyTV9y4uVaGNe_pxdPMul_DXTRjyaKJf4XvQg"
+    },
+    {
+        "id": 9,
+        "name": "Dr. Mikayla Dickson",
+        "specialities": "Liver, Biliary And Pancreatic Surgery",
+        "country": "USA",
+        "price": 130,
+        "onDuty": "Wednesday , Tuesday ",
+        "img": "https://img.freepik.com/free-photo/beautiful-doctor-pointing-fingers_1258-16474.jpg?size=626&ext=jpg&ga=GA1.2.1913179976.1611964800"
+    },
+    {
+        "id": 10,
+        "name": "Dr. Maria Rodriguez",
+        "specialities": "Medicine",
+        "country": "USA",
+        "price": 150,
+        "onDuty": "Tuesday ",
+        "img": "https://image.shutterstock.com/image-photo/confident-smiling-doctor-posing-hospital-260nw-1029028156.jpg"
+    },
+    {
+        "id": 11,
+        "name": "Dr. Cynthia Coleman",
+        "specialities": "Orthopaedic Surgery",
+        "country": "USA",
+        "price": 150,
+        "onDuty": "Wednesday",
+        "img": "https://thumbs.dreamstime.com/b/middle-aged-woman-doctor-office-meets-patients-female-s-medical-equipment-159426983.jpg"
+    },
+    {
+        "id": 12,
+        "name": "Dr. Issey Ekayaim",
+        "specialities": "Skin/Dermatology",
+        "country": "USA",
+        "price": 150,
+        "onDuty": "Saturday , Wednesday , Thursday , Tuesday , Monday , Sunday",
+        "img": "https://t4.ftcdn.net/jpg/01/16/74/37/360_F_116743793_5vlsF6CKEwIPj0ItS68Kvj458t7NYrMT.jpg"
+    },
+    {
+        "id": 13,
+        "name": "Dr. Virginia Adams",
+        "specialities": "Neonatal",
+        "country": "USA",
+        "price": 110,
+        "onDuty": "Wednesday",
+        "img": "https://st.depositphotos.com/1518767/2304/i/600/depositphotos_23046368-stock-photo-smiling-female-doctor.jpg"
+    },
+    {
+        "id": 14,
+        "name": "Dr. Scarlet Tindle",
+        "specialities": "Nutritionist",
+        "country": "USA",
+        "price": 18,
+        "onDuty": "Saturday , Wednesday , Thursday , Tuesday , Monday , Sunday",
+        "img": "https://www.ukrgate.com/eng/wp-content/uploads/2021/06/Features-of-Admission-to-Medical-Specialties-in-20211-1.jpg"
+    }
+]
