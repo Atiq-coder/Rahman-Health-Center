@@ -8,7 +8,6 @@ import {
     updateProfile
 } from "firebase/auth";
 import initializeAuthentication from "../Component/Firebase/Firebase.init";
-import { useHistory } from "react-router-dom";
 
 initializeAuthentication();
 const useFirebase = () => {
@@ -25,16 +24,11 @@ const useFirebase = () => {
     const auth = getAuth();
     const provider = new GoogleAuthProvider();
 
-    // const history = useHistory();
 
-    // const handleGetAppointment = () => {
-    //     history.push("/home");
-    // }
 
     // Registration and Login Toggle
     const toggle = e => {
         setIsLogin(e.target.checked);
-        console.log(e.target.checked);
     }
 
     // Name field
@@ -76,7 +70,6 @@ const useFirebase = () => {
                 setError('');
                 emailVerification();
                 setUserName();
-                console.log(user);
             })
             .catch(error => {
                 setError(error.message);
@@ -87,7 +80,6 @@ const useFirebase = () => {
     const emailVerification = () => {
         sendEmailVerification(auth.currentUser)
             .then(user => {
-                console.log(user);
                 setError('');
             }).catch((error) => {
                 setError(error.message);

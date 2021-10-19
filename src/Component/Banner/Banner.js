@@ -12,8 +12,8 @@ const Banner = () => {
                         alt="First slide"
                     />
                     <Carousel.Caption>
-                        <h3>First slide label</h3>
-                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                        <h3>Happy to see you healthy</h3>
+                        <p>The trusted and friendly medical professionals.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -24,8 +24,8 @@ const Banner = () => {
                     />
 
                     <Carousel.Caption>
-                        <h3>Second slide label</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <h3>We are committed to provide affordable services</h3>
+                        <p>Our Pathology division offers a comprehensive range of laboratory.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -36,8 +36,8 @@ const Banner = () => {
                     />
 
                     <Carousel.Caption>
-                        <h3>Third slide label</h3>
-                        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                        <h3>The art of our medical services</h3>
+                        <p>We have talent, experienced, reputed and dynamic doctors in our team working in a growing practice. </p>
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>

@@ -10,7 +10,6 @@ import Footer from './Component/Footer/Footer';
 import Doctors from './Component/Doctors/Doctors';
 import Appointment from './Component/Appointment/Appointment';
 import LogIn from './Component/LogIn/LogIn';
-import Register from './Component/Register/Register';
 import AuthProvider from './Context/AuthProvider';
 import PrivateRoute from './Component/PrivateRoute/PrivateRoute';
 
@@ -38,9 +37,6 @@ function App() {
             </PrivateRoute>
             <Route path="/login">
               <LogIn></LogIn>
-            </Route>
-            <Route path="/register">
-              <Register></Register>
             </Route>
             <Route path="/*">
               <NotFound></NotFound>

@@ -21,7 +21,6 @@ const Header = () => {
                             <Nav.Link><Link className="link" to="/services">Services</Link></Nav.Link>
                             <Nav.Link><Link className="link" to="/doctors">Doctors</Link></Nav.Link>
                             <Nav.Link><Link className="link" to="/appointment">Appointment</Link></Nav.Link>
-                            <Nav.Link><Link className="link" to="/contact">Contact Us</Link></Nav.Link>
                             <Nav.Link><span>{user.displayName}</span></Nav.Link>
                             {
                                 user.email ?

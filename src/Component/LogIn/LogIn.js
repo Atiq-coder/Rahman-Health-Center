@@ -23,8 +23,6 @@ const LogIn = () => {
     }
 
 
-
-
     return (
         <div className="container form">
             <Form className="py-5 mx-auto" onSubmit={handleRegistration}>

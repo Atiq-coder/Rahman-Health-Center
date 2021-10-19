@@ -1,10 +1,8 @@
 import React from 'react';
 import { Button, Card, Col } from 'react-bootstrap';
-import useAuth from '../../hooks/useAuth';
 
 const Doctor = (props) => {
     const { name, specialities, onDuty, img, price } = props.doctor;
-    const { handleGetAppointment } = useAuth();
     return (
         <div>
             {/* Product card */}
