@@ -17,8 +17,8 @@ const Footer = () => {
                     <Nav className="me-auto">
                     </Nav>
                     <Nav>
-                        <Nav.Link href="#deets">Home</Nav.Link>
-                        <Nav.Link href="#deets">About</Nav.Link>
+                        <Nav.Link href="#deets">Help</Nav.Link>
+                        <Nav.Link href="#deets">More us</Nav.Link>
                         <Nav.Link href="#deets">Contact</Nav.Link>
                         <Nav.Link href="#deets">More deets</Nav.Link>
 
