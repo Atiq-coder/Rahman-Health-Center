@@ -11,7 +11,7 @@ const LogIn = () => {
     const history = useHistory();
     const redirect_Uri = location.state?.from || '/home';
 
-    //handle Google SignIn
+    // handle Google SignIn
     const handleGoogleSignIn = () => {
         signInUsingGoogle()
             .then(result => {
@@ -21,16 +21,8 @@ const LogIn = () => {
                 console.log(error.message);
             })
     }
-    // handle Gmail and Password SignIn
-    const handleGmailPasswordSignIn = () => {
-        signInUsingGoogle()
-            .then(result => {
-                history.push(redirect_Uri);
-            })
-            .catch(error => {
-                console.log(error.message);
-            })
-    }
+
+
 
 
     return (
