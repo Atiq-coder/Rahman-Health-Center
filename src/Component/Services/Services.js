@@ -11,7 +11,7 @@ const Services = () => {
     }, []);
     return (
 
-        <div className="cards-section">
+        <div className="cards-section container-fluid">
             <h2 className="pt-4 text-center">Our Services</h2>
             <Row xs={1} md={3} className="g-1">
                 {

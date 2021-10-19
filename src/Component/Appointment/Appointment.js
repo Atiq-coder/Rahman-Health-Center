@@ -5,7 +5,7 @@ import './Appointment.css';
 const Appointment = () => {
     return (
         <div className="container">
-            <Form className="form py-5">
+            <Form className="form py-5 mx-auto">
                 <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
                     <Row className="g-2">
                         <Col md>

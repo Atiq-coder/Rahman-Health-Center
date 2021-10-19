@@ -9,37 +9,42 @@ import Services from './Component/Services/Services';
 import Footer from './Component/Footer/Footer';
 import Doctors from './Component/Doctors/Doctors';
 import Appointment from './Component/Appointment/Appointment';
+import LogIn from './Component/LogIn/LogIn';
+import AuthProvider from './Context/AuthProvider';
+import PrivateRoute from './Component/PrivateRoute/PrivateRoute';
 
 function App() {
   return (
     <div>
-      <Router>
-        <Header></Header>
-        <Switch>
-          <Route exact path="/">
-            <Home></Home>
-          </Route>
-          <Route path="/home">
-            <Home></Home>
-          </Route>
-          <Route path="/services">
-            <Services></Services>
-          </Route>
-          <Route path="/doctors">
-            <Doctors></Doctors>
-          </Route>
-          <Route path="/appointment">
-            <Appointment></Appointment>
-          </Route>
-          <Route path="/contact">
-            {/* <Contact></Contact> */}
-          </Route>
-          <Route path="/*">
-            <NotFound></NotFound>
-          </Route>
-        </Switch>
-        <Footer></Footer>
-      </Router>
+      <AuthProvider>
+        <Router>
+          <Header></Header>
+          <Switch>
+            <Route exact path="/">
+              <Home></Home>
+            </Route>
+            <Route path="/home">
+              <Home></Home>
+            </Route>
+            <Route path="/services">
+              <Services></Services>
+            </Route>
+            <PrivateRoute path="/doctors">
+              <Doctors></Doctors>
+            </PrivateRoute>
+            <PrivateRoute path="/appointment">
+              <Appointment></Appointment>
+            </PrivateRoute>
+            <Route path="/login">
+              <LogIn></LogIn>
+            </Route>
+            <Route path="/*">
+              <NotFound></NotFound>
+            </Route>
+          </Switch>
+          <Footer></Footer>
+        </Router>
+      </AuthProvider>
     </div>
   );
 }
