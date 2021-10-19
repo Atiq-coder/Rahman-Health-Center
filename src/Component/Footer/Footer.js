@@ -1,14 +1,9 @@
 import React from 'react';
-import { Container, ListGroup, Nav, Navbar, NavDropdown } from 'react-bootstrap';
+import { Container, Nav, Navbar } from 'react-bootstrap';
 
 const Footer = () => {
     return (
-        // Footer 
-        // <div className="bg-dark">
-        //     <div className="container">
-        //         <p className="text-center text-secondary p-3">COPYRIGHT &copy; 2021 AHMAD ENGLISH ACADEMY BANGLADESH. ALL RIGHTS RESERVED</p>
-        //     </div>
-        // </div>
+
         <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
             <Container>
                 <Navbar.Brand href="#home">COPYRIGHT &copy; 2021 RAHMAN</Navbar.Brand>
