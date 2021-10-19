@@ -4,6 +4,7 @@ import Doctor from '../Doctor/Doctor';
 
 const Doctors = () => {
     const [doctors, setDoctors] = useState([]);
+    // Data load
     useEffect(() => {
         fetch('./doctors.json')
             .then(res => res.json())
@@ -12,7 +13,7 @@ const Doctors = () => {
     return (
 
         <div className="cards-section">
-            <h2 className="pt-4 text-center">Our Doctors</h2>
+            <h2 className="pt-4 text-center text-white">Our Doctors</h2>
             <Row xs={1} md={3} className="g-1">
                 {
                     doctors.map(doctor => <Doctor key={doctor.id} doctor={doctor}></Doctor>)

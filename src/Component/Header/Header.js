@@ -8,6 +8,7 @@ import './Header.css';
 
 const Header = () => {
     const { user, logOut } = useAuth();
+    console.log(user);
     return (
         <div>
             <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
@@ -24,7 +25,7 @@ const Header = () => {
                             <Nav.Link><span>{user.displayName}</span></Nav.Link>
                             {
                                 user.email ?
-                                    <Button onClick={logOut}>LogOut</Button>
+                                    <Button variant="secondary" onClick={logOut}>LogOut</Button>
                                     :
                                     <Nav.Link><Link className="link" to="/login">LogIn</Link></Nav.Link>}
                         </Nav>

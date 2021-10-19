@@ -34,7 +34,7 @@ const Appointment = () => {
                     <Form.Label><b>Message</b></Form.Label>
                     <Form.Control as="textarea" rows={3} />
                 </Form.Group>
-                <Button variant="secondary">Submit</Button>
+                <Button variant="dark">Submit</Button>
             </Form>
         </div>
     );

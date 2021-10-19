@@ -6,11 +6,12 @@ import './LogIn.css';
 
 const LogIn = () => {
     const { signInUsingGoogle, handleRegistration, handlePasswordInput,
-        handleEmailInput, error, toggle, isLogin } = useAuth();
+        handleEmailInput, error, toggle, isLogin, handleNameChange } = useAuth();
     const location = useLocation();
     const history = useHistory();
     const redirect_Uri = location.state?.from || '/home';
 
+    //handle Google SignIn
     const handleGoogleSignIn = () => {
         signInUsingGoogle()
             .then(result => {
@@ -20,6 +21,18 @@ const LogIn = () => {
                 console.log(error.message);
             })
     }
+    // handle Gmail and Password SignIn
+    const handleGmailPasswordSignIn = () => {
+        signInUsingGoogle()
+            .then(result => {
+                history.push(redirect_Uri);
+            })
+            .catch(error => {
+                console.log(error.message);
+            })
+    }
+
+
     return (
         <div className="container form">
             <Form className="py-5 mx-auto" onSubmit={handleRegistration}>
@@ -27,7 +40,7 @@ const LogIn = () => {
                 <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
                     <Row className="g-2">
                         {!isLogin && <div><Form.Label><b>Your Name</b></Form.Label>
-                            <Form.Control type="text" required placeholder="Your Name" /></div>
+                            <Form.Control onBlur={handleNameChange} type="text" required placeholder="Your Name" /></div>
                         }
                         <Form.Label><b>Your Email</b></Form.Label>
                         <Form.Control onBlur={handleEmailInput} type="email" required placeholder="Your Email" />
@@ -45,7 +58,7 @@ const LogIn = () => {
                     </Row>
                 </Form.Group>
             </Form>
-            <Button onClick={handleGoogleSignIn} className="btn-regular">Google sign in</Button>
+            <Button variant="dark" onClick={handleGoogleSignIn} className="btn-regular">Google sign in</Button>
         </div>
     );
 };

@@ -4,6 +4,7 @@ import Service from '../Service/Service';
 
 const Services = () => {
     const [services, setServices] = useState([]);
+    // Data load
     useEffect(() => {
         fetch('./services.json')
             .then(res => res.json())
@@ -12,7 +13,7 @@ const Services = () => {
     return (
 
         <div className="cards-section container-fluid">
-            <h2 className="pt-4 text-center">Our Services</h2>
+            <h2 className="pt-4 text-center text-white">Our Services</h2>
             <Row xs={1} md={3} className="g-1">
                 {
                     services.map(service => <Service key={service.id} service={service}></Service>)
